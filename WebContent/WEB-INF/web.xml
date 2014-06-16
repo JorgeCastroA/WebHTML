@@ -19,4 +19,14 @@
     <servlet-name>HelloWorld</servlet-name>
     <url-pattern>/HelloWorld</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ReceirverServlet</display-name>
+    <servlet-name>ReceirverServlet</servlet-name>
+    <servlet-class>ReceirverServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ReceirverServlet</servlet-name>
+    <url-pattern>/ReceirverServlet</url-pattern>
+  </servlet-mapping>
 </web-app>
